@@ -14,15 +14,26 @@ body {
   padding: 0;
 }
 
-.div {
+div {
   display: inline-block;
-  margin: 1.5em;
+  padding: 1em;
   max-width: 25em;
 }
 
-.div h2 {
-  display:inline-block;
-  margin: 1.5rem;
+div a {
+  display: inline-block;
+  padding: .4em .75em .25em;
+}
+
+div img {
   padding: 1em;
-  max-width: 25em;
+}
+
+div h2 {
+  padding: 2em;
+  margin: 1.5em;
+}
+
+div p{
+  padding: 2em;
 }
